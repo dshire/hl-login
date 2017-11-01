@@ -1,7 +1,7 @@
 # Homelike Login
 
 ## To run:
-1. Clone repo and open folder: ```git clone git@github.com:dshire/hl-login.git```
+1. Clone repo and open folder from console: ```git clone git@github.com:dshire/hl-login.git``` then ```cd hl-login```
 2. ```npm install```
 3. ```npm start```
 4. If the browser window doesn't open automatically, go to  ```localhost:3000``` in your browser
