@@ -1,0 +1,44 @@
+#logo {
+    height: 30px;
+}
+
+.flag {
+    margin-right: 5px;
+}
+
+#navbar-blue {
+    background-image: none;
+    background-color: #2C577D;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 3px 1px rgba(46, 46, 46, 0.3),
+    inset rgba(255, 255, 255, 0.2) 0 1px 1px
+}
+
+#navbar-blue .active > a,
+#navbar-blue .active > a:hover,
+#navbar-blue .navbar-nav > li > a:focus,
+#navbar-blue .navbar-nav > .active > a:focus {
+    background-color: #3f78a9;
+    background-image: none;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #2C577D;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border: none;
+    box-shadow: none;
+}
+
+#city-search::placeholder {
+    font-size: 12px;
+}
